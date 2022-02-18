@@ -1,0 +1,34 @@
+.root {
+  margin: "5%";
+  flex-grow: 1;
+  display: "flex";
+  flex-direction: "column";
+  align-items: "center";
+  background-color: "pink";
+}
+
+.header {
+  width: "100%";
+  border: "2px solid red";
+  max-width: "700px";
+  font-size: "20em";
+  font-weight: "900";
+}
+.media {
+  max-width: "700px";
+}
+
+.avatar {
+  background-color: red;
+}
+.data {
+  display: "inline";
+  border: "solid 2px red";
+}
+
+.list {
+  margin-top: 2%;
+  display: "flex";
+  flex-direction: "column";
+  align-items: "left";
+}
